@@ -102,7 +102,7 @@ int my_win_main( HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine, 
 }
 
 
-extern( Windows ) nothrow 
+extern( Windows ) nothrow
 LRESULT WndProc( HWND hwnd, UINT message, WPARAM wParam, LPARAM lParam ) 
 {
     HDC hdc;
